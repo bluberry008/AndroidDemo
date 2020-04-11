@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/poster1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="快递点:中通"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/recipient1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="收件人:张三"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="联系方式"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/code1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="取货码"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/address1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="地址:西三"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/count1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="数量:2"
+                android:inputType="number" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/small1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="小"
+                    android:textAlignment="center" />
+
+                <RadioButton
+                    android:id="@+id/sb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="有大有小" />
+
+                <RadioButton
+                    android:id="@+id/big1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="大" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/detail1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="要求:易碎物品"
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/publish1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="发布" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

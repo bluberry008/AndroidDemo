@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/register_emaiil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="注册邮箱"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/register_psd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="旧密码"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/newpsd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="新密码"
+        android:inputType="numberPassword" />
+
+    <EditText
+        android:id="@+id/newpsd_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="新密码确认"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:id="@+id/cofirm_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定修改" />
+</LinearLayout>

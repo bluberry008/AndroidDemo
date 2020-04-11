@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <Toolbar
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:id="@+id/toolbar">
+      <ImageView
+          android:tint="#000"
+          android:background="?android:attr/selectableItemBackground"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/back"
+          android:src="@drawable/ic_arrow_back_black_24dp"/>
+      <TextView
+          android:textColor="#000"
+          android:textSize="20sp"
+          android:paddingLeft="15dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="详情展示"
+          android:id="@+id/rec"/>
+
+
+  </Toolbar>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <EditText
+          android:id="@+id/editText5"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:hint="收货人"
+          android:inputType="textPersonName"
+          android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="快递点"
+        android:inputType="textPersonName"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="收货地址"
+        android:inputType="textPersonName"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="件数"
+        android:inputType="textPersonName"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="size"
+        android:inputType="textPersonName"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"/>
+
+      <EditText
+          android:id="@+id/editText13"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:inputType="textPersonName"
+          android:textAlignment="center"/>
+
+      <EditText
+          android:id="@+id/editText14"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:inputType="textPersonName"
+          android:textAlignment="center"/>
+
+      <Button
+          android:id="@+id/button_re"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="接收订单"
+          android:textAlignment="center" />
+    </LinearLayout>
+</LinearLayout>
